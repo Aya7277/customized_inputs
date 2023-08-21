@@ -1,0 +1,68 @@
+@import "./fonts.css";
+@import "./reset.css";
+
+/* BASE CONFIG */
+html {
+    scroll-behavior: smooth;
+}
+.row {
+    display: flex;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33333%;
+}
+.col-6 {
+    width: 50%;
+}
+.d-flex {
+    display: flex;
+}
+.container {
+    max-width:1050px ;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.hero {
+    background: url("../images/hero_bcg.png") no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: column;
+    padding-top: 36px;
+    color:#fff;
+}
+.header {
+    max-width: 1322px;
+    height: 104px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.header_logo {
+    display: flex;
+    width: 106px;
+    height: 32px;
+    text-align: center;
+    margin: 36px 136px 90 px;
+}
+.header_link {
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 21px;
+}
+.header_logo-right {
+    width: 24px;
+    height: 14px;
+}
